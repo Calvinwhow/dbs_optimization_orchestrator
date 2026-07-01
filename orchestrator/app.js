@@ -1,7 +1,7 @@
 const ports = {
-  optimizer: "3000",
-  electrodeSettings: "3003",
-  neuroimaging: "3002",
+  optimizer: "8081",
+  electrodeSettings: "8082",
+  neuroimaging: "8083",
   ...window.DBS_PORTS,
 };
 
