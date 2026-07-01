@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DBS Optimization Launcher</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="intro">
+        <p class="eyebrow">DBS tools</p>
+        <h1>DBS Optimization Launcher</h1>
+        <p class="subtitle">Open the app you need from one local page.</p>
+      </section>
+
+      <section class="actions" aria-label="Application launcher">
+        <button class="app-button" data-service="electrodeSettings">
+          <span>Optimize electrode</span>
+          <small>Use neuroimage-based targets to configure current across an electrode.</small>
+        </button>
+
+        <button class="app-button" data-service="optimizer">
+          <span>View electrode settings</span>
+          <small>Visualize current allocations across an electrode mockup.</small>
+        </button>
+
+        <button class="app-button" data-service="neuroimaging">
+          <span>View neuroimaging</span>
+          <small>Load an electrode, the optimal stimulation volumes, and view relative to anatomy.</small>
+        </button>
+      </section>
+    </main>
+
+    <script src="/config.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
